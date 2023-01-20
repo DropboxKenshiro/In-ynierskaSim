@@ -1,0 +1,2 @@
+This is a simple simulator of quantum computer, built on top of Google's Cirq and PySide.
+It was intended for my engineering thesis. It focuses on entanglement and showing what's happenning inside.

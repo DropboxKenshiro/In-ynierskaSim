@@ -1,0 +1,22 @@
+Linux (wersja z gotowym środowiskiem):
+1. Upewnij się, że posiadasz w systemie zainstalowanego Pythona w wersji conajmniej 3.10
+2. Uruchom plik ./run.sh
+
+Linux (wersja bez gotowego środowiska):
+1. Upewnij się, że posiadasz w systemie zainstalowanego Pythona w wersji conajmniej 3.10
+2. Zalecane jest utworzenie wirtualnego środowiska w katalogu nadrzędnym do src (https://docs.python.org/3/library/venv.html)
+3. Należy aktywować środowisko wirtualne przez polecenie "source [katalog środowiska wirtualnego]/bin/activate"
+4. Należy zainstalować wymagane biblioteki przez polecenie "pip install -r requirements.txt"
+5. Środowisko jest zainstalowane! Program można uruchomić uruchamiając skrypt ./run.sh
+
+Windows (wersja z gotowym środowiskiem):
+Dystybucja programu w postaci pliku .exe dla Windows jest dostępna osobno. Jeżeli jest ona uruchamiana na starszej
+wersji systemu Windows (poniżej Windows 10) należy się upewnić że zainstalowano biblioteki Visual C++
+
+Windows (wersja bez gotowego środowiska):
+1. Upewnij się, że posiadasz w systemie zainstalowanego Pythona w wersji conajmniej 3.10
+2. Upewnij się, że masz w systemie zainstalowany menedżer pakietów pip (https://phoenixnap.com/kb/install-pip-windows)
+3. Zalecane jest utworzenie wirtualnego środowiska w katalogu nadrzędnym do src (https://docs.python.org/3/library/venv.html)
+4. Należy aktywować środowisko wirtualne przez polecenie "./[katalog środowiska wirtualnego]/Scripts/activate"
+4. Należy zainstalować wymagane biblioteki przez polecenie "pip install -r requirements.txt"
+5. Środowisko jest zainstalowane! Program można uruchomić uruchamiając polecenie "python src/main.py"
