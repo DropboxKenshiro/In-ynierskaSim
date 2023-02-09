@@ -1,2 +1,9 @@
 This is a simple simulator of quantum computer, built on top of Google's Cirq and PySide.
 It was intended for my engineering thesis. It focuses on entanglement and showing what's happenning inside.
+
+How to build:
+For now I won't really bother with preparing a real package, however you can just:
+1. Clone the source code
+2. Create new virtual environment
+3. Download required packages with pip (requirements.txt)
+4. Either run src/main.py or use run.sh
